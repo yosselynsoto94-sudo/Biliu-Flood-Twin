@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+matplotlib
+torch
+scipy
+joblib
+geopandas
+rasterio
+pykrige
+shapely
+pydeck
+scikit-learn
