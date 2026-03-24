@@ -22,15 +22,15 @@ plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'Arial']
 plt.rcParams['axes.unicode_minus'] = False
 
 # ================= 1. 核心路径配置区 (已完全固定) =================
-XAJ_PARAMS_FILE = r"Smart_Flood_App\data\best_xaj_15params_DE.csv"
-LSTM_MODEL_PATH = r"Smart_Flood_App\data\lstm_model_DE.pth"
-SCALER_FILE = r"Smart_Flood_App\data\scalers_DE.pkl"
+XAJ_PARAMS_FILE = r"Smart_Flood_App/data/best_xaj_15params_DE.csv"
+LSTM_MODEL_PATH = r"Smart_Flood_App/data/lstm_model_DE.pth"
+SCALER_FILE = r"Smart_Flood_App/data/scalers_DE.pkl"
 
 # 空间地理数据
-STATION_INFO_FILE = r"Smart_Flood_App\data\小流域雨量站位置.csv"
-DEM_FILE = r"Smart_Flood_App\data\12.5m.tif"
-SHP_YUSHI = r"Smart_Flood_App\data\玉石水库范围.shp"
-SHP_INTERVAL = r"Smart_Flood_App\data\区间范围.shp"
+STATION_INFO_FILE = r"Smart_Flood_App/data/流域雨量站位置.csv"
+DEM_FILE = r"Smart_Flood_App/data/12.5m.tif"
+SHP_YUSHI = r"Smart_Flood_App/data/玉石水库范围.shp"
+SHP_INTERVAL = r"Smart_Flood_App/data/区间范围.shp"
 
 
 # ================= 2. 物理模型与深度学习架构 =================
