@@ -27,7 +27,7 @@ LSTM_MODEL_PATH = r"Smart_Flood_App/data/lstm_model_DE.pth"
 SCALER_FILE = r"Smart_Flood_App/data/scalers_DE.pkl"
 
 # 空间地理数据
-STATION_INFO_FILE = r"Smart_Flood_App/data/流域雨量站位置.csv"
+STATION_INFO_FILE = r"Smart_Flood_App/data/小流域雨量站位置.csv"
 DEM_FILE = r"Smart_Flood_App/data/12.5m.tif"
 SHP_YUSHI = r"Smart_Flood_App/data/玉石水库范围.shp"
 SHP_INTERVAL = r"Smart_Flood_App/data/区间范围.shp"
